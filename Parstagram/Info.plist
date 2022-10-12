@@ -19,6 +19,12 @@
 					<string>Main</string>
 				</dict>
 			</array>
+            
+            <key> NSAppTransportSecurity </key>
+            <dict>
+                <key>NSAllowArbitraryLoads</key><true/>
+                </dict>
+            
 		</dict>
 	</dict>
 </dict>
