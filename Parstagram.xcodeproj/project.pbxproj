@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		29A426C228E7B10E0010C21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A426C128E7B10E0010C21C /* AppDelegate.swift */; };
-		29A426C428E7B10E0010C21C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A426C328E7B10E0010C21C /* SceneDelegate.swift */; };
 		29A426C928E7B10E0010C21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A426C728E7B10E0010C21C /* Main.storyboard */; };
 		29A426CB28E7B10F0010C21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A426CA28E7B10F0010C21C /* Assets.xcassets */; };
 		29A426CE28E7B10F0010C21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A426CC28E7B10F0010C21C /* LaunchScreen.storyboard */; };
 		29A426D928E7B10F0010C21C /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A426D828E7B10F0010C21C /* ParstagramTests.swift */; };
 		29A426E328E7B10F0010C21C /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A426E228E7B10F0010C21C /* ParstagramUITests.swift */; };
 		29A426E528E7B10F0010C21C /* ParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A426E428E7B10F0010C21C /* ParstagramUITestsLaunchTests.swift */; };
+		29AEF9FF28F7935700BD3A5C /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AEF9FE28F7935700BD3A5C /* CommentCell.swift */; };
+		29B8E50B28F7819000EA2CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B8E50A28F7819000EA2CA4 /* SceneDelegate.swift */; };
 		29EC30ED28E7C4D600016CED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EC30EC28E7C4D600016CED /* LoginViewController.swift */; };
 		29EC30EF28E7C4EE00016CED /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EC30EE28E7C4EE00016CED /* FeedViewController.swift */; };
 		29EC30F128E7EFE100016CED /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EC30F028E7EFE100016CED /* CameraViewController.swift */; };
@@ -42,7 +43,6 @@
 /* Begin PBXFileReference section */
 		29A426BE28E7B10E0010C21C /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A426C128E7B10E0010C21C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29A426C328E7B10E0010C21C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29A426C828E7B10E0010C21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29A426CA28E7B10F0010C21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29A426CD28E7B10F0010C21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		29A426DE28E7B10F0010C21C /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A426E228E7B10F0010C21C /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		29A426E428E7B10F0010C21C /* ParstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29AEF9FE28F7935700BD3A5C /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		29B8E50A28F7819000EA2CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29EC30EC28E7C4D600016CED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		29EC30EE28E7C4EE00016CED /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		29EC30F028E7EFE100016CED /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				29A426C128E7B10E0010C21C /* AppDelegate.swift */,
-				29A426C328E7B10E0010C21C /* SceneDelegate.swift */,
 				29A426C728E7B10E0010C21C /* Main.storyboard */,
 				29A426CA28E7B10F0010C21C /* Assets.xcassets */,
 				29A426CC28E7B10F0010C21C /* LaunchScreen.storyboard */,
@@ -122,6 +123,8 @@
 				29EC30EE28E7C4EE00016CED /* FeedViewController.swift */,
 				29EC30F028E7EFE100016CED /* CameraViewController.swift */,
 				29EC30F228E8FACA00016CED /* PostCell.swift */,
+				29B8E50A28F7819000EA2CA4 /* SceneDelegate.swift */,
+				29AEF9FE28F7935700BD3A5C /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -171,7 +174,7 @@
 				29A426BA28E7B10E0010C21C /* Sources */,
 				29A426BB28E7B10E0010C21C /* Frameworks */,
 				29A426BC28E7B10E0010C21C /* Resources */,
-				A5F118690EF4830BA9210BAC /* [CP] Embed Pods Frameworks */,
+				7BB0DA9474E88C76EC04A20D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,7 +314,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5F118690EF4830BA9210BAC /* [CP] Embed Pods Frameworks */ = {
+		7BB0DA9474E88C76EC04A20D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,8 +342,9 @@
 				29EC30F128E7EFE100016CED /* CameraViewController.swift in Sources */,
 				29A426C228E7B10E0010C21C /* AppDelegate.swift in Sources */,
 				29EC30EF28E7C4EE00016CED /* FeedViewController.swift in Sources */,
-				29A426C428E7B10E0010C21C /* SceneDelegate.swift in Sources */,
 				29EC30F328E8FACB00016CED /* PostCell.swift in Sources */,
+				29B8E50B28F7819000EA2CA4 /* SceneDelegate.swift in Sources */,
+				29AEF9FF28F7935700BD3A5C /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
